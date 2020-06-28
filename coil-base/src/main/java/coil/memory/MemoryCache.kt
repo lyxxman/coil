@@ -2,7 +2,6 @@ package coil.memory
 
 import android.graphics.Bitmap
 import coil.ImageLoader
-import coil.annotation.ExperimentalCoilApi
 import coil.request.ImageRequest
 import coil.request.SuccessResult
 import coil.size.Size
@@ -10,7 +9,6 @@ import coil.size.Size
 /**
  * An in-memory cache of recently loaded images.
  */
-@ExperimentalCoilApi
 interface MemoryCache {
 
     /** The current size of the cache in bytes. */
